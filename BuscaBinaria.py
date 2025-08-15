@@ -7,14 +7,17 @@ def pesquisaBinaria(lista,item):
         chute = lista[int(meio)]
 
         if chute == item:
-            return meio                        
+            return print('Numero localizado')                        
         if chute > item:
             alto = meio -1
+            print('Numero não localizado') 
         else:
             baixo = meio + 1
+            print('Numero não localizado') 
     return None
 
 
-minha_lista = [1,3,4,5,6,7,8,9,10,11,12]
+minha_lista = [1,2,3,4]
 
 pesquisaBinaria(minha_lista, 3)
+  
