@@ -17,7 +17,7 @@ def MaxValor(lista: list):
 
     
 
-print(MaxValor([2,1]))
+print(MaxValor([2,1,4,5,0,7]))
 
 minha_lista = [1,2,3]
 
